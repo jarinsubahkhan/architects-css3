@@ -257,3 +257,34 @@ height: 100px;
 font-size: 20px;
 color: #424242;
 }
+@media only screen and (max-width:668px) {
+    nav, nav ul{
+        width:100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .section{
+        width: 100%;
+        flex-direction:column;
+        justify-content:center;
+    }
+    .banner{
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+        width: 100%;
+    }
+    .banner img{
+        justify-content: center;
+    }
+    .sec-img{
+        display: grid;
+        grid-template-columns:repeat(2, 1fr) ;
+    }
+    .section-blogs{
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+    }
+
+}
